@@ -1,0 +1,43 @@
+.cajagrande {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+
+
+.boton{
+
+    
+    margin: 0px;
+    background-color: $celeste;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.8s;
+    
+    a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    
+    
+}
+
+.boton:hover{
+    
+    background-color: $azulclaro;
+    transform: scale(1.2);
+}
+
+.grafica{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}

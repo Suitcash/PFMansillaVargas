@@ -1,0 +1,46 @@
+/* Navegador superior */
+
+.navegador{
+    background-color: $celeste;
+
+    ul  {list-style: none;  
+    }
+       li a{
+            margin: 0px;
+            padding: 10px 20px;    
+            
+            text-decoration: none;
+            transition: 0.25s;
+            border-radius: 10px;
+
+            &:hover{
+                background-color: $azul;
+                transition: 0.8s;
+                
+            }
+            img{
+                box-sizing: border-box;
+            }
+        }
+}
+
+
+.icononav{
+    
+    width: 20%;
+    
+}
+
+/* Navegador de pie */
+
+@media(max-width:576px){
+   
+    .navegadordepie{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        
+        
+    }
+}
