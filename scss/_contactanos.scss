@@ -1,0 +1,79 @@
+/*COMIENZO CONTACT US*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: end;
+    
+    
+}
+.contenedor{
+    margin: 1px;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.formulario{
+    margin-left: 30px;
+}
+
+.enviar{
+    background-color: $celeste;
+            margin: 0px;
+            padding: 10px 20px;    
+            
+            text-decoration: none;
+            transition: 0.25s;
+            border-radius: 10px;
+
+            &:hover{
+                background-color: $azul;
+                transition: 0.8s;
+                
+            }
+        }
+
+.info{
+    align-items: end;
+}
+
+.fondos{
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color:$verdeclaro ;
+    border-radius: 10px;
+    
+
+}
+
+.contenedordeanimacion{
+    .animacion{
+        width: 50px;
+        height:5px;
+        background-color:$verdeclaro ;
+        padding: 5px;
+        animation-name: ani;
+        animation-duration: 3s;
+        animation-iteration-count: 10;
+        animation-delay: 1s;
+    }
+}
+
+@keyframes ani{
+    0%{ transform: translate(500px,0);}
+    
+    100%{transform: translate(0px,0);}
+}
+
+
+/*FIN CONTACT US*/

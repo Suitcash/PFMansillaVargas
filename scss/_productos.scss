@@ -1,0 +1,49 @@
+/* COMIENZA PRODUCTOS */
+
+.fondoproductos{
+    background-color: #9cddf77a;
+}
+/*
+.productos{ ul{
+
+}
+    list-style: none;
+    
+    display: flex;
+}
+*/
+
+.scrollhorizontal {
+	
+	width: 100%;
+	overflow: auto;
+	border: 2px solid $verdeclaro;
+	padding: 8px;
+}
+
+.bloque{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.bloque img{
+   margin: 5px;
+   width: 300px;
+    height: 300px;
+   object-fit: cover;
+   
+}
+
+
+.producto1{
+    padding: 50px;
+    margin: 15px;
+    width: 100px;
+    background-color: #0BA3DE;
+}
+
+
+
+
+/*END OF PRODUCTS*/

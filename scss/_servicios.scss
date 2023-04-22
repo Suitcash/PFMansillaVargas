@@ -1,0 +1,74 @@
+/* Inicio de Servicios */
+.contenedor{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.ul{
+    margin: 0;
+    padding: 0;
+}
+    .servi{
+        
+        padding: 5px;
+        margin: 20px;
+    }
+
+.cajita{
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+    transition: 1s;
+    
+    
+}
+.cajita:hover{
+    transform: translate(0px,-15px);
+    
+}
+.cajita img{
+
+    margin: 8px;
+    
+}
+
+.scrolllateral {
+    
+    height: 70%;
+    width: 90%;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    
+    overflow: auto;
+    .imgdescroll{
+        height: inherit;
+        width: 100%;
+        object-fit: cover;
+
+        
+
+
+    }
+
+}
+
+.mensajes{
+    box-sizing: border-box;
+    
+}
+.texto {
+    padding:4px;
+    background:#fff;
+}
+
+            .mensajes {
+                margin: 0;
+                padding: 0;
+
+            }
+            
+            
+
+/* FIN SERVICIOS*/
