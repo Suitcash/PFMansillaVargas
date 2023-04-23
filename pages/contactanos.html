@@ -11,133 +11,91 @@
 </head>
 <body>
 
-    <header class="d-flex justify-content-between navegador">
-
+    <header class="navegador d-flex justify-content-between ">
         <h1 class="">
-
             MERCADO SEGURO
-
         </h1>
-
-        <nav class="navegador d-flex justify-content-center justify-content-sm-center justify-content-sm-end align-items-center">
-
-            <ul class="d-none d-sm-flex flex-column align-content-center flex-sm-row">
-                <li><a class="d-block  " href="../index.html"><img src="../multimedia/img/inconos/hogar.png" alt="Página Principal" srcset=""></a></li>
-                <li><a class="d-block  " href="./servicios.html"><img src="../multimedia/img/inconos/envio.png" alt="Servicios" srcset=""></a></li>
-                <li><a class="d-block  " href="./productos.html"><img src="../multimedia/img/inconos/botella-de-plastico.png" alt="Productos" srcset=""></a></li>
-                <li><a class="d-block  " href="./contactanos.html"><img src="../multimedia/img/inconos/correo-electronico.png" alt="Contactanos"></a></li>
-                <li><a class="d-block  "href="./sobrenosotros.html"><img src="../multimedia/img/inconos/marcador-de-posicion.png" alt="Sobre Nosotros" srcset=""></a></li>
-            </ul>
-            
-        </nav>
-
+        <nav id="navUp" class="navbar d-flex align-items-center navbar-expand-sm bg-body-tertiary p-0">
+            <div class="fondoPrincipal container-fluid p-0">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-center flex-sm-row m-0">
+                    <li class="nav-item"><a class="d-block nav-link " href="../index.html"><img src="../multimedia/img/inconos/hogar.png" alt="Página Principal" srcset=""></a></li>
+                    <li class="nav-item"><a class="d-block nav-link " href="./servicios.html"><img src="../multimedia/img/inconos/envio.png" alt="Servicios" srcset=""></a></li>
+                    <li class="nav-item"><a class="d-block nav-link " href="./productos.html"><img src="../multimedia/img/inconos/botella-de-plastico.png" alt="Productos" srcset=""></a></li>
+                    <li class="nav-item"><a class="d-block nav-link " href="./contactanos.html"><img src="../multimedia/img/inconos/correo-electronico.png" alt="Contactanos"></a></li>
+                    <li class="nav-item"><a class="d-block nav-link "href="./sobrenosotros.html"><img src="../multimedia/img/inconos/marcador-de-posicion.png" alt="Sobre Nosotros" srcset=""></a></li>   
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <main row>
-        
+    <main>
         <div class="contenedor row d-flex">
-
-            <form class="formulario col-12 col-sm-6 col-lg-4">
-
+            <form class="formulario container-fluid col-12 col-sm-6 col-lg-4">
                 <h2>Contactanos</h2>
-                
-                <br>
-                
                 <a href="tel:+549388765432"><img src="../multimedia/img/ring-phone.png" alt="Icono de Telefono" width="16px"> +549388765432</a>
-                
-                <br>
-
                 <a href="tel:+549388765432"><img src="../multimedia/img/whatsapp.png" alt="Icono de whatsapp" width="16px">+549388765432</a>
+                <label for="lineoftext" class="fondos">Ingrese su nombre.</label>
 
-                <br>
-                <br>
-                
-                <label class="fondos">Ingrese su nombre.</label>
-                
-                <br>
-                
                 <textarea required name=""cols="30" rows="1" class="lineoftext" placeholder="Nombre" ></textarea>
 
-                <br>
-
-                <label class="fondos">Ingrese su apellido.</label>
-
-                <br>
+                <label for="lineoftext" class="fondos">Ingrese su apellido.</label>
 
                 <textarea required name="" placeholder="Apellido" cols="30" rows="1" class="lineoftext"></textarea>
 
-                <br>
-                
-
                 <label class="fondos">Indique su sexo:</label>
 
-                <br>
-                
                 <label for="">Masculino</label>
 
                 <input type="radio" name="sexo" id="">
-
-                <br>
 
                 <label for="">Femenino</label>
 
                 <input type="radio" name="sexo" id="">
 
-                <br>
-
                 <label for="">No Binario</label>
 
                 <input type="radio" name="sexo" id="">
                 
-                <br>
-                
                 <label class="fondos">Dejanos tú correo electrónico</label>
-                <br>
+                
                 <input type="email" name="" required placeholder="Correo Electrónico">
-                <br>
-                <br>
+
                 <label class="fondos">Confirm if you are a human</label>
+
                 <input type="checkbox" name="" id="" required>
 
-                <br> <br>
-
                 <label>Leave a message to us</label>
-                <br>
+        
                 <textarea required name=""cols="40" rows="10" class="lineoftext"></textarea>
-                
-                <br> <br>
 
                 <button class="enviar" type="submit">Enviar <div class="contenedordeanimacion"><div class="animacion"></div></div></button> 
             </form>
 
             <div class="info col-12 col-sm-6 col-lg-4">
-            
                 <div>
-                    
                     <div class="fondos">
                     <p>Encontranos aquí:</p>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113927.15309576457!2d-65.29263395675282!3d-26.832841656760422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1677682161873!5m2!1ses-419!2sar" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                 </div>
                 
                 <div class="fondos">
                     <p>Más sobre nosotros.</p>
                     <iframe src="https://www.youtube.com/embed/Ycs7gq_fRcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
                 </div>
-
             </div>
-
-        
-
         </div>
 
     </main>
 
     <footer class="navegadordepie d-sm-none">
         <nav class="navegador  d-flex flex-nowrap justify-content-center align-items-center">
-
             <ul class="botonesdepie d-flex ">
                 <li><a class="botondepie" href="../index.html"><img src="../multimedia/img/inconos/hogar.png" alt="Página Principal" srcset=""></a></li>
                 <li><a class="botondepie" href="./servicios.html"><img src="../multimedia/img/inconos/envio.png" alt="Servicios" srcset=""></a></li>

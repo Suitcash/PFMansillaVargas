@@ -1,14 +1,16 @@
 /* Navegador superior */
 
-.navegador{
+.navegador, #navUp , .fondoPrincipal{
     background-color: $celeste;
 
     ul  {list-style: none;  
+        padding: 0px;
+        align-items: center;
+        border: 2px;
     }
        li a{
             margin: 0px;
             padding: 10px 20px;    
-            
             text-decoration: none;
             transition: 0.25s;
             border-radius: 10px;
@@ -24,23 +26,109 @@
         }
 }
 
-
-.icononav{
-    
-    width: 20%;
-    
+.icononav{  
+    width: 100%; 
 }
 
-.btn{
-    
+.btn{   
     &:hover{
         background-color: $azul;
-        transition: 0.8s;
-        
+        transition: 0.8s;      
     }
-
 }
 
+
+/*
+.menu-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+   
+}
+
+.menu-icon, #check{
+    display: none;
+}
+
+@media (max-width:576px){
+    .checkbtn{
+        display: block;
+        
+    
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+
+    }
+    .navegador ul{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        background: #222;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+    .navegador ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .navegador ul li:last-child{
+        padding: 1rem;
+        background: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+}
+*/
+
+
+
+
+
+/*
+@media(max-width:550px) {
+    .navegador .fa-bars{
+        display: block;
+        font-size: 32px;
+        margin: 10px;
+        color: $verde;
+    }    
+    .navegador .fa-bars:hover + ul{
+        right: 0;
+    }
+    .navegador ul:hover{
+        right: 0;
+    }
+    .navegador ul{
+        right: -350px;
+        top: 0;
+        position: fixed;
+        background-color: $celeste;
+        width: 250px;
+        height: 100vh;
+        z-index: 5;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .navegador ul li a{
+        color: black;
+    }
+}
+*/
+
+
+/*
 @media screen and (min-width: 576px) {
     #hamburguesa {
         display: none;
@@ -49,19 +137,21 @@
 
 #hamburguesa{
 
-    position: absolute;
+    position: fixed;
     width: 40px;
     top: 0.5rem;
     right: 1.5rem;
     cursor: pointer;
+    background-color: $celeste;
     width: 40px;
-
+    align-content: center;
+    
     img{
         max-width: 100%;
     }
 
 }
-
+*/
 
 /* Navegador de pie */
 
@@ -81,6 +171,3 @@
 
 /* Navegador de hamburguesa */
 
-@media(max-width:576px){
-    
-}
