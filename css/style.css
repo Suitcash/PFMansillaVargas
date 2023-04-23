@@ -276,8 +276,7 @@ h1 {
     display: flex;
 }
 */
-.scrollhorizontal {
-  width: 100%;
+.scroll {
   overflow: auto;
   border: 2px solid #0BDEA6;
   padding: 8px;
@@ -294,13 +293,6 @@ h1 {
   width: 300px;
   height: 300px;
   object-fit: cover;
-}
-
-.producto1 {
-  padding: 50px;
-  margin: 15px;
-  width: 100px;
-  background-color: #0BA3DE;
 }
 
 /*END OF PRODUCTS*/
